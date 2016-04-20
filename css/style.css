@@ -1,0 +1,24 @@
+body {
+  background: darkorange;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  box-sizing: border-box;
+  background: lightblue;
+  font-family: Lobster, cursive;
+  font-size: 26px;
+  color: #444;
+  text-align: left;
+  margin: 0;
+  padding: 8px 0 0 80px;
+  height: 50px;
+  box-shadow: 0px 5px 5px #111;
+}
+
+.output {
+  width: 850px;
+  margin: 40px auto;
+  border: 1px solid lightblue;
+}
