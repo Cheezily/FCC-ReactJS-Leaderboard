@@ -1,5 +1,5 @@
 body {
-  background: darkorange;
+  background: #44d;
   padding: 0;
   margin: 0;
 }
@@ -51,14 +51,6 @@ header {
   color: #444;
 }
 
-img {
-  display: block;
-  float: left;
-  margin: -10px 20px 0 0;
-  height: 40px;
-  width: 40px;
-}
-
 .labels {
   border: none;
   margin: 0 auto;
@@ -97,7 +89,8 @@ span {
 }
 
 .item:nth-child(2n+1) {
-  background: darkorange;
+  background: #44d;
+  color: #fff;
 }
 
 .item .rank {
@@ -108,6 +101,14 @@ span {
   width: 5%;
   margin: 0;
   text-align: center;
+}
+
+img {
+  display: block;
+  float: left;
+  margin: -10px 5px 0 0;
+  height: 40px;
+  width: 40px;
 }
 
 .name {
