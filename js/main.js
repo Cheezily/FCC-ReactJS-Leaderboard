@@ -1,26 +1,21 @@
 var Output = React.createClass({
   getInitialState: function() {
-    return {}
+    return {};
   },
   componentDidMount: function() {
-/*
-    this.serverRequest = $.get(this.props.url, function(data) {
-      this.setState(data).bind(this);
-      console.log(this.state);
-    })
-    */
+    return {};
   },
   render: function() {
     console.log(this.props.list);
 
     var userlist = this.props.list;
     return (
-      <div class="snot">
+      <div className='container'>
         {userlist.map(function(camper, key) {
-          return (<div key={key + 1} class='item'><span class='rank'>{key + 1}</span>
-            <span class='name'>{camper.username}<img src={camper.img} /></span>
-            <span class='alltime'>{camper.alltime}</span>
-            <span class='recent'>{camper.recent}</span>
+          return (<div key={key + 1} className="item"><div className='rank'>{key + 1}</div>
+            <div className='name'><img src={camper.img} />{camper.username}</div>
+            <div className='alltime'>{camper.alltime}</div>
+            <div className='recent'>{camper.recent}</div>
             </div>);
         })}
       </div>
