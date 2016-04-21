@@ -17,8 +17,29 @@ header {
   box-shadow: 0px 5px 5px #111;
 }
 
+.banner {
+  background: lightblue;
+  margin: 40px auto 0;
+  width: 850px;
+  height: 70px;
+  border-top: 3px solid #444;
+  border-left: 3px solid #444;
+  border-right: 3px solid #444;
+}
+
 .output {
   width: 850px;
-  margin: 40px auto;
-  border: 1px solid lightblue;
+  margin: 0 auto;
+  border-left: 3px solid #444;
+  border-bottom: 3px solid #444;
+  border-right: 3px solid #444;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+.item {
+  background: #aaa;
 }
